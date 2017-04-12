@@ -5,7 +5,9 @@ This example assumes you've setup an Authorization Server and an OIDC applicatio
 Look [here](http://developer.okta.com/docs/api/resources/oauth2.html#validating-access-tokens) for reference on
 validating Okta access tokens
 
-The examples below use [HTTPie](http://httpie.org)
+The Okta API interactions below use [HTTPie](http://httpie.org)
+
+This example uses the [JJWT](https://github.com/jwtk/jjwt) to verify and parse the access token.
 
 ## Build
 
@@ -63,6 +65,8 @@ Follow these steps:
     <keys[0].n from step 2; ex: mJL9cWnu9q5tosaYJo...>
     <keys[0].e from step 2; ex: AQAB>
     ```
+    
+    **NOTE:** You must provide the above 3 parameters and there's no checking in the code - it'll just blow up. ;)
     
     You'll get back something like this:
     
