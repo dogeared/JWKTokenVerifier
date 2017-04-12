@@ -33,7 +33,7 @@ Follow these steps:
     eyJhbGciOiJSUzI1NiIsImtpZCI6IkRwREtNUll6cFBNNjdRdjF2b21EbVJfOWZXc2dBak1IcUJMLVRiSnpDMDQifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlpBMTRIbk1lNEtVeEdyQW9fMnFUWjhXRmNmRUt6TjNWLThKTnkxcmx5YjAiLCJpc3MiOiJodHRwczovL21pY2FoLm9rdGFwcmV2aWV3LmNvbS9vYXV0aDIvYXVzOXZtb3JrOHd3NXR3WmcwaDciLCJhdWQiOiJodHRwczovL2FmaXRuZXJkLmNvbS90ZXN0IiwiaWF0IjoxNDkxOTcwODMyLCJleHAiOjE0OTE5NzQ0MzIsImNpZCI6IlFTMlRUTGZVRTN6aXUzV0tlbDR0IiwidWlkIjoiMDB1OXZtZTk5bnh1ZHZ4WkEwaDciLCJzY3AiOlsib2ZmbGluZV9hY2Nlc3MiXSwic3ViIjoibWljYWgrb2t0YUBhZml0bmVyZC5jb20ifQ.RU4zIQIadATEcAt7Pd6SHqWsIprVrucmsqD7i3PKMskHsAcq8zYczFLyzprbSCAoTnM0ItR2VQ6gZuwt_u0S7wtWde_AJzeh-gWq5xRKpRub0MiUDGj-zT-Mhm4JED7I4NQMr1sZMTv0UhsFlc8YxF1o8SHehqDj63Ds1Cpu0IYIpB9orz0Wn-wTvX6z6KP_GeHWc_mhQXUjIKfisax0ZUk0LbH6CLU1ZEIIa-9G_PmpK6gwHASbbcfcCexXnDxUUgwi7e4tiBN7x4ocqzScQbY7ao3T4s6ybejd4oWO69sTGXF7m25-QrNAZJZMytdzqsI4x5EroNZI0GUtMTp0wQ
     ```
     
-2. Obtain the [JWK]() with the public key to verify the signature
+2. Obtain the [JWK](https://tools.ietf.org/html/rfc7517) with the public key to verify the signature
 
     ```
     http --auth <client id>:<client secret> -f \
