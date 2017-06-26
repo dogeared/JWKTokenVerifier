@@ -1,4 +1,4 @@
-# Okta Access Token Verifier
+# Okta JWK Token Verifier
 
 This example assumes you've setup an Authorization Server and an OIDC application
 

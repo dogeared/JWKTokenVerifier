@@ -16,7 +16,7 @@ import java.security.spec.InvalidKeySpecException;
 import java.security.spec.RSAPublicKeySpec;
 import java.util.Base64;
 
-public class AccessTokenVerifier {
+public class JWKTokenVerifier {
 
     public static void main(String[] args) {
 
