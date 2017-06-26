@@ -62,7 +62,7 @@ Follow these steps:
 3. Validate the access token
     
     ```
-    java -jar target/access-token-verifier-0.0.1-SNAPSHOT-spring-boot.jar \
+    java -jar target/jwk-token-verifier-0.0.1-SNAPSHOT-spring-boot.jar \
     <access token from step 1>
     <keys[0].n from step 2; ex: mJL9cWnu9q5tosaYJo...>
     <keys[0].e from step 2; ex: AQAB>
