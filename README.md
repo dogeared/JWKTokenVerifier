@@ -1,6 +1,8 @@
 # Okta JWK Token Verifier
 
-This example assumes you've setup an Authorization Server and an OIDC application
+This example assumes you've setup an Authorization Server and an OIDC application.
+
+You can use this tool to verify Okta (offline) access tokens or id tokens. 
 
 Look [here](http://developer.okta.com/docs/api/resources/oauth2.html#validating-access-tokens) for reference on
 validating Okta access tokens
